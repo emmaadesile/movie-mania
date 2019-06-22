@@ -1,0 +1,34 @@
+{
+  "name": "movie-mania",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmaadesile/movie-mania.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emmaadesile/movie-mania/issues"
+  },
+  "homepage": "https://github.com/emmaadesile/movie-mania#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "parcel": "^1.12.3",
+    "parcel-bundler": "^1.12.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
