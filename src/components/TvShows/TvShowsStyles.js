@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const Wrapper = styled.div`
   height: 100%;
@@ -16,7 +16,7 @@ const HeroImage = styled.div`
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(${require("../../assets/images/arrow-wallpaper.jpg")});
+  background-image: url('https://res.cloudinary.com/dn6fnuhxr/image/upload/v1560424209/arrow-wallpaper.jpg');
 `;
 
 const TvShowGridContainer = styled.div`

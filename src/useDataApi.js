@@ -4,10 +4,8 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-
 const apiKey = process.env.REACT_APP_TMDB_API_KEY;
 const baseURL = process.env.REACT_APP_BASE_URL;
-console.log(apiKey, baseURL);
 
 const useDataAPI = videoType => {
   const [videos, setVideos] = useState([]);

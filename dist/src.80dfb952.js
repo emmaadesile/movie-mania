@@ -34638,7 +34638,6 @@ _dotenv.default.config();
 
 var apiKey = "0edf560d45bf9b88baced0cac6b95b03";
 var baseURL = "https://api.themoviedb.org/3";
-console.log(apiKey, baseURL);
 
 var useDataAPI = function useDataAPI(videoType) {
   var _useState = (0, _react.useState)([]),
@@ -41061,9 +41060,7 @@ var Loader = function Loader() {
 
 var _default = Loader;
 exports.default = _default;
-},{"@babel/runtime/helpers/taggedTemplateLiteral":"../../node_modules/@babel/runtime/helpers/taggedTemplateLiteral.js","react":"../../node_modules/react/index.js","styled-components":"../../node_modules/styled-components/dist/styled-components.browser.esm.js","./loader.scss":"../components/Loader/loader.scss"}],"../assets/images/avengers_endgame.jpg":[function(require,module,exports) {
-module.exports = "/avengers_endgame.0ab2b1a7.jpg";
-},{}],"../components/Movies/MoviesStyles.js":[function(require,module,exports) {
+},{"@babel/runtime/helpers/taggedTemplateLiteral":"../../node_modules/@babel/runtime/helpers/taggedTemplateLiteral.js","react":"../../node_modules/react/index.js","styled-components":"../../node_modules/styled-components/dist/styled-components.browser.esm.js","./loader.scss":"../components/Loader/loader.scss"}],"../components/Movies/MoviesStyles.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -41088,7 +41085,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = (0, _taggedTemplateLiteral2.default)(["\n  height: 600px;\n  clip-path: polygon(0 0, 0 98%, 100% 92%, 100% 0);\n  background-position: top;\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-image: url(", ");\n"]);
+  var data = (0, _taggedTemplateLiteral2.default)(["\n  height: 600px;\n  clip-path: polygon(0 0, 0 98%, 100% 92%, 100% 0);\n  background-position: top;\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-image: url('https://res.cloudinary.com/dn6fnuhxr/image/upload/v1560424199/avengers_endgame.jpg');\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -41125,14 +41122,14 @@ var ContainerFluid = _styledComponents.default.div(_templateObject2());
 
 exports.ContainerFluid = ContainerFluid;
 
-var HeroImage = _styledComponents.default.div(_templateObject3(), require("../../assets/images/avengers_endgame.jpg"));
+var HeroImage = _styledComponents.default.div(_templateObject3());
 
 exports.HeroImage = HeroImage;
 
 var MovieGridContainer = _styledComponents.default.div(_templateObject4());
 
 exports.MovieGridContainer = MovieGridContainer;
-},{"@babel/runtime/helpers/taggedTemplateLiteral":"../../node_modules/@babel/runtime/helpers/taggedTemplateLiteral.js","styled-components":"../../node_modules/styled-components/dist/styled-components.browser.esm.js","../../assets/images/avengers_endgame.jpg":"../assets/images/avengers_endgame.jpg"}],"../components/Movies/index.js":[function(require,module,exports) {
+},{"@babel/runtime/helpers/taggedTemplateLiteral":"../../node_modules/@babel/runtime/helpers/taggedTemplateLiteral.js","styled-components":"../../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"../components/Movies/index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -41176,9 +41173,7 @@ var Movies = function Movies() {
 
 var _default = Movies;
 exports.default = _default;
-},{"@babel/runtime/helpers/slicedToArray":"../../node_modules/@babel/runtime/helpers/slicedToArray.js","react":"../../node_modules/react/index.js","@reach/router":"../../node_modules/@reach/router/es/index.js","../../useDataApi":"../useDataApi.js","../Video":"../components/Video/index.js","../Loader":"../components/Loader/index.js","./MoviesStyles":"../components/Movies/MoviesStyles.js"}],"../assets/images/arrow-wallpaper.jpg":[function(require,module,exports) {
-module.exports = "/arrow-wallpaper.c81600ea.jpg";
-},{}],"../components/TvShows/TvShowsStyles.js":[function(require,module,exports) {
+},{"@babel/runtime/helpers/slicedToArray":"../../node_modules/@babel/runtime/helpers/slicedToArray.js","react":"../../node_modules/react/index.js","@reach/router":"../../node_modules/@reach/router/es/index.js","../../useDataApi":"../useDataApi.js","../Video":"../components/Video/index.js","../Loader":"../components/Loader/index.js","./MoviesStyles":"../components/Movies/MoviesStyles.js"}],"../components/TvShows/TvShowsStyles.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -41203,7 +41198,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = (0, _taggedTemplateLiteral2.default)(["\n  height: 600px;\n  clip-path: polygon(0 0, 0 98%, 100% 92%, 100% 0);\n  background-position: top;\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-image: url(", ");\n"]);
+  var data = (0, _taggedTemplateLiteral2.default)(["\n  height: 600px;\n  clip-path: polygon(0 0, 0 98%, 100% 92%, 100% 0);\n  background-position: top;\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-image: url('https://res.cloudinary.com/dn6fnuhxr/image/upload/v1560424209/arrow-wallpaper.jpg');\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -41240,14 +41235,14 @@ var ContainerFluid = _styledComponents.default.div(_templateObject2());
 
 exports.ContainerFluid = ContainerFluid;
 
-var HeroImage = _styledComponents.default.div(_templateObject3(), require("../../assets/images/arrow-wallpaper.jpg"));
+var HeroImage = _styledComponents.default.div(_templateObject3());
 
 exports.HeroImage = HeroImage;
 
 var TvShowGridContainer = _styledComponents.default.div(_templateObject4());
 
 exports.TvShowGridContainer = TvShowGridContainer;
-},{"@babel/runtime/helpers/taggedTemplateLiteral":"../../node_modules/@babel/runtime/helpers/taggedTemplateLiteral.js","styled-components":"../../node_modules/styled-components/dist/styled-components.browser.esm.js","../../assets/images/arrow-wallpaper.jpg":"../assets/images/arrow-wallpaper.jpg"}],"../components/TvShows/index.js":[function(require,module,exports) {
+},{"@babel/runtime/helpers/taggedTemplateLiteral":"../../node_modules/@babel/runtime/helpers/taggedTemplateLiteral.js","styled-components":"../../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"../components/TvShows/index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -41833,7 +41828,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54225" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58108" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
