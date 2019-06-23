@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel ./src/index.js"
+    "dev": "parcel ./src/public/index.html",
+    "clear-build-cache": "rm -rf .cache/ dist/",
+    "predeploy": "rm -rf .cache/ dist/",
+    "build": "parcel build dist/index.html --public-url ./"
   },
   "repository": {
     "type": "git",
@@ -20,12 +22,28 @@
   "homepage": "https://github.com/emmaadesile/movie-mania#readme",
   "devDependencies": {
     "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-async-generator-functions": "^7.2.0",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-transform-async-to-generator": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
-    "prettier": "^1.18.2"
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.18.2",
+    "styled-components": "^4.3.2"
   },
   "dependencies": {
+    "@reach/router": "^1.2.1",
+    "axios": "^0.19.0",
+    "date-fns": "^1.30.1",
+    "dot": "^1.1.2",
+    "dotenv": "^8.0.0",
+    "dt": "0.0.1",
     "parcel": "^1.12.3",
     "parcel-bundler": "^1.12.3",
     "react": "^16.8.6",
